@@ -1,0 +1,11 @@
+{
+  "name": "@mayurArde-Dmart/design-system",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+    "dependencies": {
+    "@mayurArde-Dmart/button": "workspace:*",
+    "@mayurArde-Dmart/chip": "workspace:*"
+  }
+}

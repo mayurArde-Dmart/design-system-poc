@@ -1,0 +1,15 @@
+
+
+> @mayurArde-Dmart/design-system@0.1.0 build /Users/dmartadmin/Projects/Frontend/design-system-poc/packages/design-system
+> rollup -c
+
+[36m
+[1msrc/index.ts[22m → [1mdist/index.cjs.js, dist/index.esm.js[22m...[39m
+[1m[31m[!] [1mRollupError: Could not resolve entry module "src/index.ts".[22m[1m[39m[22m
+[2m    at getRollupError (/Users/dmartadmin/Projects/Frontend/design-system-poc/node_modules/.pnpm/rollup@4.45.1/node_modules/rollup/dist/shared/parseAst.js:285:41)
+    at Object.error (/Users/dmartadmin/Projects/Frontend/design-system-poc/node_modules/.pnpm/rollup@4.45.1/node_modules/rollup/dist/shared/parseAst.js:281:42)
+    at ModuleLoader.loadEntryModule (/Users/dmartadmin/Projects/Frontend/design-system-poc/node_modules/.pnpm/rollup@4.45.1/node_modules/rollup/dist/shared/rollup.js:22691:32)
+    at async Promise.all (index 0)[22m
+
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
