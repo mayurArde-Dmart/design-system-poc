@@ -1,9 +1,9 @@
 # design-system-poc
-# 📦 How to Build and Use a Private React Component Library with GitHub Packages
+# How to Build and Use a Private React Component Library with GitHub Packages
 
 ## Document 1: Building and Publishing a Library
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Node.js & PNPM installed
 - GitHub Personal Access Token (PAT) with `write:packages`, `read:packages`, and `repo` scopes
@@ -170,4 +170,3 @@ pnpm add @mui/material @emotion/react @emotion/styled
 
 ---
 
-✅ Your app is now using your private design system! 🎉
