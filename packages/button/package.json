@@ -1,0 +1,37 @@
+{
+  "name": "@mayurArde-Dmart/button",
+  "version": "0.1.2",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "button",
+    "react",
+    "mui",
+    "component"
+  ],
+  "author": "Your Name <you@example.com>",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "rollup": "^4.45.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "tss-react": "^4.9.18"
+  }
+}
