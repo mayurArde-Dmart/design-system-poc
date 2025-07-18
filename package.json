@@ -1,23 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "@mayurArde-Dmart/design-system",
-  "version": "0.1.1",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "dependencies": {
-    "@mayurArde-Dmart/button": "workspace:*",
-    "@mayurArde-Dmart/chip": "workspace:*",
-    "@mui/material": "^5.0.0",
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^2.29.5"
-=======
   "name": "design-system-poc",
   "version": "1.0.2",
   "description": "",
@@ -44,6 +25,5 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tslib": "^2.8.1"
->>>>>>> f8b37c3 (btn updated)
   }
 }
